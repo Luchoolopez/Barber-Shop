@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    .informacion {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    #titulo_descripcion_segundo {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .descripcion {
+        text-align: center;
+    }
+
+    .fotos_body {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fotos_body img {
+        max-width: 45%;
+    }
+}

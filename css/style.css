@@ -1,0 +1,67 @@
+@import url(header.css);
+@import url(informacion.css);
+@import url(mapa.css);
+@import url(portada_principal.css);
+@import url(portafolio.css);
+@import url(testimonio.css);
+@import url(precios.css);
+@import url(responsive360px.css);
+@import url(responsive768px.css);
+@import url(responsive1024px.css);
+
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MontserratBlack';
+    src: url('../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetpye');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url(../fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf) format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.4;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.block {
+    animation: appear 1s ease forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.25px;
+    margin-bottom: 0;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
